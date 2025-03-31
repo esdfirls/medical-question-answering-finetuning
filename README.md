@@ -1,7 +1,17 @@
 # Medical Question Answering Model Fine-tuning
 
 ## Introduction
-This state-of-the-art text-generation model is tailored to provide accurate, contextually relevant, and coherent answers to user medical queries. The model achieves high performance while maintaining computational efficiency by leveraging advanced fine-tuning techniques, such as LoRA (Low-Rank Adaptation). This documentation provides an overview of the model's development, training, evaluation, and potential areas for improvement, along with example interactions to demonstrate its capabilities.
+This state-of-the-art text-generation model is tailored to provide accurate, contextually relevant, and coherent answers to user medical queries. The model achieves high performance while maintaining computational efficiency by leveraging advanced fine-tuning techniques, such as LoRA (Low-Rank Adaptation). The foundation model used for this project is **Qwen/Qwen2.5-0.5B**. This documentation provides an overview of the model's development, training, evaluation, and potential areas for improvement, along with example interactions to demonstrate its capabilities.
+
+## Libraries Used
+The following libraries are used in this project:
+- `transformers`
+- `trl`
+- `peft`
+- `accelerate`
+- `evaluate`
+- `torch`
+- `bitsandbytes`
 
 ## Files
 The project is organized into the following files:
