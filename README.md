@@ -107,3 +107,17 @@ through the bloodstream and to different parts of the body, where it may lodge (
 the heart can be life-threatening if it occurs suddenly or if part of the heart tissue is damaged by the clot."
 
 ![qa3](imgs/image-2.png)
+
+### Question 4
+Input: "What is (are) Rosacea ?"
+Output: "Rosacea is a vascular (blood vessel) inflammation in the skin, which is characterized by painful and red lesions (papules) on the
+face. This condition can range in severity from minimal inflammatory condition, to severe skin disease that can cause facial swelling,
+inflammation and facial redness, as well as painful blisters. Rosacea can come and go easily in response to many different facial
+cues. A classic symptom of red welts (hives) caused by roxodosis, can be seen during adolescence. Hives can occur at any age, or in
+response to certain factors such as sun, alcohol, certain medications or certain food types, and can sometimes be triggered by stress.
+Rosacea can also affect skin in other areas of the body. People with rosacea can have the redness of acne, but rosacea's symptoms can
+also be distinctive - for example, red warts on the legs, blisters on the ears (tongue), or blisters in the mouth, which may persist
+over time (lichenification) into a permanent ulcer on the tongue. Rosacea commonly comes and goes in response to the same trigger, and
+may go away for several weeks, only to come back again. While rosacea can be controlled with topical or oral antibiotics"
+
+![qa5](imgs/image-5.png)
