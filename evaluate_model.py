@@ -33,6 +33,9 @@ class Evaluate:
             data=test_dataset,
             metric=["f1", "rouge", "bleu"],
             input_column="messages",
+            device="cuda"
         )
         
         return results
+    
+    

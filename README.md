@@ -77,48 +77,33 @@ Below is an example of how the model can be used for a QA task:
 
 ### Question 1
 Input: "What is glaucoma?"  
-Output: "What Is Glaucoma?: The glaucoma we've talked about so far are most cases of glaucoma, which occur in the front of the eye (aqueous
-humor is the liquid produced by the eye that brings nutrients and drugs to the eyes; when the glaucoma progresses, it damages this
-fluid in the eye and the optic nerve. Symptoms of glaucoma may not always be present. These include discomfort or headache (usually
-in the head), nausea or vomiting, or blurred vision. In some cases, glaucoma can lead to cataracts, clouding of the lens in the eye.
-The severity of glaucoma also depends upon the patient's age and the level of damage to the optic nerve. Usually, glaucoma begins in
-your 40s or later and most commonly affects people between 60 and 75. Blood pressure plays an important role in glaucoma. High blood
-pressure often precedes damage to the optic nerve and glaucoma. Other risk factors, such as long-term use of alcohol, smoking and a
-family history of glaucoma, can increase the risk of developing glaucoma, although it typically does not result in long-term vision
-loss. Unfortunately, people cannot control their blood pressure with medications"
+Output: "Glaucoma is a condition in which the fluid that surrounds the optic nerve of the eye becomes very thick (glaucoma is called a
+glaucoma- optic nerve compression, NGC) or becomes very full (glaucoma is called a glaucoma-decompression of the optic nerve). Each
+case of glaucoma is unique and may happen with or without any other conditions. In some glaucoma cases, vision loss is very rapid and
+can occur within minutes, while in others vision loss can occur weeks or months apart. Vision loss may be gradual or sudden
+(intraocular pressure has to increase significantly to feel symptoms). Glaucoma usually affects only one eye or both eyes, but there
+are several cases in which vision loss occurs in both eyes. In many cases, glaucoma can't be diagnosed during an eye exam or a
+doctor's consultation (exam). Also, glaucoma can develop after eye surgery (such as LASIK, cataract surgery, glaucoma laser surgery,
+or trabeculoplasty) or after eye burns. Glaucoma causes damage and damage (nearing) to the optic nerve, a line of neurons that connect
+the retina to the brain. The optic nerve is important for vision, especially for visual objects"
 
-![qa1](imgs/image.png)
+![qa1](imgs/image-1.png)
 
 ### Question 2
 Input: "What is (are) Surviving Cancer ?"  
-Output: "Surviving Cancer : Survival is very much a word in the eye of the suffering patient and family. Surviving cancer is the belief that
-the patient can feel better in the end and live long and healthy lives. Survival means the best of a bad situation. Cancer affects
-all races, ethnicities, ages, sex, physical abilities, and religious beliefs. Surviving cancer refers to any kind of cancer that
-makes the person feel better and may live longer than people of the same stage of cancer. A more common way to describe survival is
-the length of time people are alive after treatment - after treatment. A longer life does not guarantee more time for a cure or a
-better quality of life for those who have survived cancer. If people don't get the type of cancer and treatment so that the cancer is
-killed, the person living through the disease might live a shorter life than if they'd gotten better treatment. Sadly, most people
-who survive cancer do so only to live short lives. However, those who survive many years after the cancer is treated are alive
-through both the illness and the treatment itself. Cancer survivors live to age 75-80, although some live much longer. Surviving
-cancer is the hope of many people.älle
-UIAlertAction
-:UIAlert
-:UIAlert
-UIAlertAction"
+Output: "Surviving cancer varies greatly from person to person. Treatment can make an individual's chance of surviving cancer more likely, but
+some people may need much more treatment than the standard treatment (a typical course of five to seven chemotherapy rounds over six
+to nine months) if they are a particular type of cancer (such as melanoma, endometrial, prostate, lung, or stomach cancers), or if
+they have certain comorbidities that make survival difficult for most people. However, surviving cancer can improve the quality of
+life and prolong the life of many people with cancer."
 
-![qa2](imgs/image-1.png)
+![alt text](imgs/image-4.png)
 
 ### Question 3
-Input: "What is (are) Heart Attack ?"  
-Output: "Heart Attack : The heart attack we've talked about so far is usually the most common type of heart attack. It occurs when blood flow
-to a part of the heart is blocked or reduced by blocked arteries. The heart attack usually occurs at night while you are sleeping,
-and it may result in shortness of breath, chest pain, feeling like you are about to faint, or weakness in your legs. When a person
-experiences a heart attack they often are rushed to a hospital, where a nurse or doctor will apply pressure to the upper part of the
-chest to help get blood flowing to the heart - by opening up the artery in the area. Heart attack is usually fatal, but often heart
-attack can be treated. Heart attack is the leading cause of death for men in the United States. meisten heart attacks occur in people
-over the age of 65 who smoke a long time or take other medications that suppress or stop the body from converting cholesterol
-(cholesterol is a substance that helps to reduce the risk of heart disease; it is also a substance in your blood). Prevention offers
-several ways to reduce the risk of a heart attack during your lifetime. When you do start smoking, use cigarettes fewer times, quit
-smoking completely, or reduce your tobacco intake, you will lessen the risk of"
+Input: "What is Heart Attack ?"  
+Output: "Heart attacks or 'myocardial infarctions', or MI, occur when a blood clot forms in a coronary artery (the major blood
+vessels leading from the heart) and blocks blood flow to the heart. The clot or blockage can then break off and travel
+through the bloodstream and to different parts of the body, where it may lodge (stick). The obstruction of blood flow to
+the heart can be life-threatening if it occurs suddenly or if part of the heart tissue is damaged by the clot."
 
 ![qa3](imgs/image-2.png)
