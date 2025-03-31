@@ -53,6 +53,9 @@ The project is organized into the following files:
 3. Training: The `SFTTrainer` class is used to train the model on the training dataset, with evaluation performed on the test dataset during training.
 4. Checkpointing: The model is saved periodically to ensure progress is not lost.
 
+### Why Supervised Fine-Tuning Was Used
+Supervised fine-tuning was employed to adapt the pre-trained model to the specific domain and task requirements. By using labeled datasets with clear input-output pairs, the model learns to generate contextually relevant and accurate responses tailored to medical queries. This approach ensures that the model aligns closely with the desired behavior, improving its performance on domain-specific tasks while maintaining coherence and relevance in its outputs. Additionally, supervised fine-tuning allows for better control over the model's behavior, reducing the likelihood of generating irrelevant or incorrect responses.
+
 
 ---
 
