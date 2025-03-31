@@ -1,7 +1,7 @@
-# Supportiv Model Documentation
+# Medical Question Answering Model Fine-tuning
 
 ## Introduction
-The Supportiv model is a state-of-the-art text-generation model tailored to provide accurate, contextually relevant, and coherent answers to user medical queries. By leveraging advanced fine-tuning techniques, such as LoRA (Low-Rank Adaptation), the model achieves high performance while maintaining computational efficiency. This documentation provides an overview of the model's development, training, evaluation, and potential areas for improvement, along with example interactions to demonstrate its capabilities.
+This state-of-the-art text-generation model is tailored to provide accurate, contextually relevant, and coherent answers to user medical queries. The model achieves high performance while maintaining computational efficiency by leveraging advanced fine-tuning techniques, such as LoRA (Low-Rank Adaptation). This documentation provides an overview of the model's development, training, evaluation, and potential areas for improvement, along with example interactions to demonstrate its capabilities.
 
 ## Files
 The project is organized into the following files:
@@ -12,12 +12,12 @@ The project is organized into the following files:
 - **`train_accelerate.py`**: The main script to orchestrate data processing, model training, and evaluation.
 - **`files/`**: Directory containing dataset files such as `mle_screening_dataset.csv` and PubMedQA JSON files (not used for training, requires more computational power).
 - **`adapter/`**: Directory containing adapter-related modules for model fine-tuning.
-- **`qwen_0.5_mle/`**: Directory containing Qwen tokenizer, merged model with adapters and configuration files.
+- **`qwen_0.5_mle/`**: Directory containing Qwen tokenizer, merged model with adapters, and configuration files.
 
 
 ## Observations during Development and Training
 - Input data is clean and well-structured, with clear distinctions between input and output fields (e.g., "question" and "answer").
-- The model is designed for text-generation tasks and assumes that the dataset is suitable for such tasks. The model is adapted to chat template.
+- The model is designed for text-generation tasks and assumes that the dataset is suitable for such tasks. The model is adapted to a chat template.
 
 ## Model Performance
 ### Strengths
